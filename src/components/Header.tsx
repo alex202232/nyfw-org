@@ -28,7 +28,7 @@ export const Header = () => {
           {/* Logo */}
           <a href="/" className="absolute left-1/2 transform -translate-x-1/2">
             <h1 className="font-serif text-3xl md:text-4xl font-bold tracking-tight">
-              FORD<br />MODELS
+              NYFW<br />MODELS
             </h1>
           </a>
 

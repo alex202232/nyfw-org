@@ -15,7 +15,7 @@ export const Hero = () => {
       <div className="relative h-full flex items-center justify-center">
         <div className="text-center text-primary-foreground animate-fade-in-up px-4">
           <h2 className="font-serif text-6xl md:text-8xl lg:text-9xl font-bold mb-4 tracking-tight">
-            FORD
+            NYFW
           </h2>
           <h3 className="font-serif text-4xl md:text-6xl lg:text-7xl font-light tracking-widest">
             MODELS

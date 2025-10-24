@@ -46,10 +46,10 @@ export const Footer = () => {
         <div className="border-t border-primary-foreground/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="font-serif text-2xl font-bold">
-              FORD MODELS
+              NYFW MODELS
             </div>
             <p className="font-sans text-sm font-light text-primary-foreground/70">
-              © {new Date().getFullYear()} Ford Models, Inc. All rights reserved.
+              © {new Date().getFullYear()} NYFW Models, Inc. All rights reserved.
             </p>
           </div>
         </div>
