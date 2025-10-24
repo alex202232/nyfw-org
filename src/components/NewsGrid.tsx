@@ -9,7 +9,7 @@ const newsItems = [
   {
     id: 1,
     image: model1,
-    modelName: 'TOPSY',
+    modelName: 'BESSROYCE',
     publication: 'D la Repubblica',
     credits: 'Photographed by Thurstan Redding, Styled by Leopolda Duchemin'
   },
