@@ -2,17 +2,11 @@ import nyfwEvent from '@/assets/nyfw-event.jpg';
 import winner1st from '@/assets/winner-1st.jpg';
 import winner2nd from '@/assets/winner-2nd.jpg';
 import winner3rd from '@/assets/winner-3rd.jpg';
-
 export const Footer = () => {
-  return (
-    <footer className="relative text-primary-foreground py-16 px-6 overflow-hidden">
+  return <footer className="relative text-primary-foreground py-16 px-6 overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={nyfwEvent} 
-          alt="NYFW Fashion Event Winners" 
-          className="w-full h-full object-cover"
-        />
+        <img src={nyfwEvent} alt="NYFW Fashion Event Winners" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-primary/95 via-primary/90 to-primary/95" />
       </div>
 
@@ -29,23 +23,15 @@ export const Footer = () => {
           </p>
           <div className="space-y-6 mb-6">
             <div className="flex gap-4 items-start">
-              <img 
-                src={winner1st} 
-                alt="1st Place Winner - Murray" 
-                className="w-24 h-24 object-cover rounded-lg flex-shrink-0"
-              />
+              <img src={winner1st} alt="1st Place Winner - Murray" className="w-24 h-24 object-cover rounded-lg flex-shrink-0" />
               <div className="font-sans text-base font-light leading-relaxed">
-                <strong className="font-semibold">1st Place: Murray</strong> - $27,000 Grand Prize + A Luxurious Week in Switzerland (Plus One Included)
+                <strong className="font-semibold">1st Place: Sandra</strong> - $27,000 Grand Prize + A Luxurious Week in Switzerland (Plus One Included)
                 <br />
                 <span className="text-primary-foreground/80 italic">Bask in alpine glamour with a fully escorted getaway for you and a cherished companion – think pristine peaks, gourmet fondue, and endless photo ops!</span>
               </div>
             </div>
             <div className="flex gap-4 items-start">
-              <img 
-                src={winner2nd} 
-                alt="2nd Place Winner - BessRoyce" 
-                className="w-24 h-24 object-cover rounded-lg flex-shrink-0"
-              />
+              <img src={winner2nd} alt="2nd Place Winner - BessRoyce" className="w-24 h-24 object-cover rounded-lg flex-shrink-0" />
               <div className="font-sans text-base font-light leading-relaxed">
                 <strong className="font-semibold">2nd Place: BessRoyce</strong> - $18,000 Cash Award + A Solo Week of Swiss Serenity
                 <br />
@@ -53,11 +39,7 @@ export const Footer = () => {
               </div>
             </div>
             <div className="flex gap-4 items-start">
-              <img 
-                src={winner3rd} 
-                alt="3rd Place Winner - Rose" 
-                className="w-24 h-24 object-cover rounded-lg flex-shrink-0"
-              />
+              <img src={winner3rd} alt="3rd Place Winner - Rose" className="w-24 h-24 object-cover rounded-lg flex-shrink-0" />
               <div className="font-sans text-base font-light leading-relaxed">
                 <strong className="font-semibold">3rd Place: Rose</strong> - $12,500 Spotlight Stipend
                 <br />
@@ -84,6 +66,5 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
