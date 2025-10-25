@@ -1,26 +1,19 @@
-export const Footer = () => {
-  const sections = [
-    {
-      title: 'DIVISIONS',
-      links: ['Women', 'Men', 'Special Bookings', 'New Faces']
-    },
-    {
-      title: 'ABOUT',
-      links: ['Our Story', 'Our Team', 'Offices', 'Contact']
-    },
-    {
-      title: 'RESOURCES',
-      links: ['Become a Model', 'News', 'Careers', 'Legal']
-    },
-    {
-      title: 'SOCIAL',
-      links: ['Instagram', 'Facebook', 'Twitter', 'LinkedIn']
-    }
-  ];
+import fashionShowcase from '@/assets/fashion-showcase.jpg';
 
+export const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground py-16 px-6">
-      <div className="container mx-auto">
+    <footer className="relative text-primary-foreground py-16 px-6 overflow-hidden">
+      {/* Background Image with Overlay */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src={fashionShowcase} 
+          alt="Fashion Showcase Event" 
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-primary/95 via-primary/90 to-primary/95" />
+      </div>
+
+      <div className="container mx-auto relative z-10">
         <div className="max-w-4xl mx-auto mb-12">
           <h2 className="font-serif text-3xl font-bold mb-6">
             Spotlight on Our Latest Fashion Odyssey: Celebrating Emerging Talent!
