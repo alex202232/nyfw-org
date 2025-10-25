@@ -1,4 +1,4 @@
-import fashionShowcase from '@/assets/fashion-showcase.jpg';
+import nyfwEvent from '@/assets/nyfw-event.jpg';
 
 export const Footer = () => {
   return (
@@ -6,8 +6,8 @@ export const Footer = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src={fashionShowcase} 
-          alt="Fashion Showcase Event" 
+          src={nyfwEvent} 
+          alt="NYFW Fashion Event Winners" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-primary/95 via-primary/90 to-primary/95" />
