@@ -1,4 +1,7 @@
 import nyfwEvent from '@/assets/nyfw-event.jpg';
+import winner1st from '@/assets/winner-1st.jpg';
+import winner2nd from '@/assets/winner-2nd.jpg';
+import winner3rd from '@/assets/winner-3rd.jpg';
 
 export const Footer = () => {
   return (
@@ -24,21 +27,42 @@ export const Footer = () => {
           <p className="font-sans text-base font-light mb-6 leading-relaxed">
             Congratulations to our podium finishers, whose poise and presence left us all inspired:
           </p>
-          <div className="space-y-4 mb-6">
-            <div className="font-sans text-base font-light leading-relaxed">
-              <strong className="font-semibold">1st Place: Murray</strong> - $27,000 Grand Prize + A Luxurious Week in Switzerland (Plus One Included)
-              <br />
-              <span className="text-primary-foreground/80 italic">Bask in alpine glamour with a fully escorted getaway for you and a cherished companion – think pristine peaks, gourmet fondue, and endless photo ops!</span>
+          <div className="space-y-6 mb-6">
+            <div className="flex gap-4 items-start">
+              <img 
+                src={winner1st} 
+                alt="1st Place Winner - Murray" 
+                className="w-24 h-24 object-cover rounded-lg flex-shrink-0"
+              />
+              <div className="font-sans text-base font-light leading-relaxed">
+                <strong className="font-semibold">1st Place: Murray</strong> - $27,000 Grand Prize + A Luxurious Week in Switzerland (Plus One Included)
+                <br />
+                <span className="text-primary-foreground/80 italic">Bask in alpine glamour with a fully escorted getaway for you and a cherished companion – think pristine peaks, gourmet fondue, and endless photo ops!</span>
+              </div>
             </div>
-            <div className="font-sans text-base font-light leading-relaxed">
-              <strong className="font-semibold">2nd Place: BessRoyce</strong> - $18,000 Cash Award + A Solo Week of Swiss Serenity
-              <br />
-              <span className="text-primary-foreground/80 italic">Your private escape to the heart of Europe: solo adventures through chocolate-scented villages and crystal-clear lakes.</span>
+            <div className="flex gap-4 items-start">
+              <img 
+                src={winner2nd} 
+                alt="2nd Place Winner - BessRoyce" 
+                className="w-24 h-24 object-cover rounded-lg flex-shrink-0"
+              />
+              <div className="font-sans text-base font-light leading-relaxed">
+                <strong className="font-semibold">2nd Place: BessRoyce</strong> - $18,000 Cash Award + A Solo Week of Swiss Serenity
+                <br />
+                <span className="text-primary-foreground/80 italic">Your private escape to the heart of Europe: solo adventures through chocolate-scented villages and crystal-clear lakes.</span>
+              </div>
             </div>
-            <div className="font-sans text-base font-light leading-relaxed">
-              <strong className="font-semibold">3rd Place: Rose</strong> - $12,500 Spotlight Stipend
-              <br />
-              <span className="text-primary-foreground/80 italic">Fuel your rising star with this generous boost toward your next big break in the fashion world.</span>
+            <div className="flex gap-4 items-start">
+              <img 
+                src={winner3rd} 
+                alt="3rd Place Winner - Rose" 
+                className="w-24 h-24 object-cover rounded-lg flex-shrink-0"
+              />
+              <div className="font-sans text-base font-light leading-relaxed">
+                <strong className="font-semibold">3rd Place: Rose</strong> - $12,500 Spotlight Stipend
+                <br />
+                <span className="text-primary-foreground/80 italic">Fuel your rising star with this generous boost toward your next big break in the fashion world.</span>
+              </div>
             </div>
           </div>
           <p className="font-sans text-base font-light mb-4 leading-relaxed">
