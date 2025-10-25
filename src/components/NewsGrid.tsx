@@ -16,7 +16,7 @@ const newsItems = [
   {
     id: 2,
     image: model2,
-    modelName: 'SANDRA MURRAY',
+    modelName: 'MURRAY',
     publication: 'Balenciaga | Le City Bag 2025',
     credits: 'Photographed by David Sims'
   },
